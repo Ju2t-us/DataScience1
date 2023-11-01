@@ -1,4 +1,46 @@
-body 
-{
+div.title {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    margin-right: 25vw;
+    margin-left: 25vw;
 }
-h1 {font-family:Jost}
+
+div.body {
+    margin-right: 25vw;
+    margin-left: 25vw;
+    margin-bottom: 20vh;
+}
+
+h1.small {
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+}
+
+h1.big {
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+}
+
+p.smalltitle {
+    font-family: 'Jost', sans-serif;
+    font-size: 12px;
+}
+
+p.smallertitle {
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+}
+
+.green-text {
+    color: #00ff21;
+}
+
+p.header {
+    font-family: 'Merriweather';
+    font-size: 18px;
+}
+
+p.main {
+    font-family: 'Merriweather';
+    font-size: 15px;
+}
