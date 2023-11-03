@@ -1,0 +1,24 @@
+body {
+    background-color: #ff0000;
+}
+
+.section1 {
+    color: white;
+    font-size: 50;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Bentham', serif;
+}
+
+.section2 {
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.underlined {
+    text-decoration: underline;
+ }
