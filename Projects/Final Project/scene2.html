@@ -4,29 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles_scene2.css">
-    <title>Scene 2 - Animated Book</title>
+    <title>My Data Story</title>
 </head>
 <body>
     <div class="container">
         <img src="book.png" alt="Animated Book" class="animated-book">
-        <p class="fade-in-text">Click anywhere to continue</p>
+        <p class="fade-in-text">Click anywhere to read about Dave</p>
         <div class="overlay" id="overlay"></div>
         <div class="popup" id="popup">
             <p>Dave was running for mayor in a small town in Washington.</p>
             <p>He realized that he needed something to set him apart from his opponents, but he just couldn't figure out what that should be.</p>
             <p>Then one day, he came up with <i>the</i> question- he discovered his motto, the cornerstone of his campaign: </p>
-            <br />
-            <p>Does the model year of electric vehicles affect the amount of data breaches in that year?</p>
-            <br />
-            <p>Him and his team set out on the adventure of research and found some very interesting things...</p>
+            <b>
+                <p>
+                    Does the model year of electric vehicles affect the amount of data breaches in that year?
+                </p>
+            </b>
+            <p>He figured that if he could answer this question and present a solution that was solely unique to him, he'd have an edge up. So Dave and his team set out on the adventure of research and found some very interesting things…</p>
             <img src="dave.png" alt="Dave" class="dave-image">
         </div>
-        <div class="click-to-continue" id="clickToContinue">Click anywhere to continue</div>
         <div class="new-box" id="newBox">
-            <!-- Content for the new box goes here -->
-            <p>This is box 2 sliding in from the right!</p>
+            <p>
+                After days of research, his team found some datasets from the United States official compilation of datasets, <a href="data.gov">data.gov</a>
+            </p>
+            <p>
+                The thing is, there was a problem with the data, but they decided to keep that problem secret. They wanted to make this happen, and they weren't about to let their boss down.
+            </p>
+            <p>
+                So they did some calculations and prepared the data for presentation:
+            </p>
+            <img src="fake.png" alt="first visualization" style=""
+        </div>
+        <!-- Add newBox2 -->
+        <div class="new-box" id="newBox2">
+            <p>
+                This is the content of the second new box.
+            </p>
+            <p>
+                It slides in after the first new box.
+            </p>
         </div>
     </div>
+    <!-- Update the position of click-to-continue div -->
+    <div class="click-to-continue" id="clickToContinue">Click anywhere to continue</div>
     <script src="script_scene2.js"></script>
 </body>
 </html>
