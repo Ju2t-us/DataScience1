@@ -7,8 +7,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden; /* Hide scrollbars */
+    overflow: hidden;
 }
+
 
 .container {
     text-align: center;
@@ -21,6 +22,7 @@ body {
     position: relative;
 }
 
+
 .animated-book {
     width: 80%;
     max-width: 100%;
@@ -29,10 +31,12 @@ body {
     margin: 90px auto;
 }
 
+
 .fade-in-text {
     opacity: 0;
     animation: fadeIn 0.5s 1s forwards;
 }
+
 
 .popup {
     position: fixed;
@@ -49,13 +53,16 @@ body {
     animation: fadeInPopup 0.8s ease-in-out forwards;
 }
 
+
 .dave-image {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    width: 50px; /* Adjust the width as needed */
+    width: 50px;
     height: auto;
+    transform: rotate(15deg);
 }
+
 
 .new-box {
     position: fixed;
@@ -68,12 +75,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     display: none;
+    text-align: center;
 }
 
-/* Update the position of click-to-continue div */
+
 .click-to-continue {
     position: fixed;
-    bottom: 20px; /* Update the position to the bottom */
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 18px;
@@ -81,11 +89,13 @@ body {
     opacity: 0;
 }
 
+
 @keyframes rotateBook {
     to {
         transform: rotate(10deg);
     }
 }
+
 
 @keyframes fadeIn {
     to {
@@ -93,36 +103,14 @@ body {
     }
 }
 
+
 @keyframes fadeInPopup {
     from {
         opacity: 0;
     }
 
-    to {
-        opacity: 1;
-    }
-}
-#newBox2 {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(234, 229, 213);
-    padding: 40px;
-    width: 600px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-    display: none;
-}
-
-@keyframes slideIn2 {
-    from {
-        transform: translateX(100%);
-        opacity: 0;
-    }
 
     to {
-        transform: translate(-50%, -50%);
         opacity: 1;
     }
 }

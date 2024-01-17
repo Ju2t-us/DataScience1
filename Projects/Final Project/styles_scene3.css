@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.bobbing-cloud {
+    width: 100px;
+    height: auto;
+    animation: bobbing 2s infinite alternate;
+}
+
+
+    .bobbing-cloud.clicked {
+        animation: zoom 1.5s forwards;
+    }
+
+
+.fade-in-text {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    opacity: 1;
+    animation: fadeOut 1s ease-in-out 2s forwards;
+}
+
+
+.overlay-text {
+    position: fixed;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-height: 70vh;
+    font-size: 18px;
+    color: black;
+    opacity: 1;
+    overflow-y: auto;
+}
+
+
+
+
+@keyframes bobbing {
+    to {
+        transform: translateY(-10px); 
+    }
+}
+
+
+@keyframes zoom {
+    to {
+        width: 150000px;
+    }
+}
+
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}

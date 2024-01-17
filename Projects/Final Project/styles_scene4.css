@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.content {
+    text-align: center;
+    color: black;
+}
+
+p {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 20px auto; /* Adjust the margin as needed */
+}
